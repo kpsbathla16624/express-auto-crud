@@ -1,0 +1,55 @@
+{
+  "name": "express-auto-crud",
+  "version": "1.0.0",
+  "description": "Auto-generate CRUD REST endpoints for Mongoose models",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx watch test/server.ts",
+    "test": "tsx src/test/server.ts",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "express",
+    "mongoose",
+    "crud",
+    "rest",
+    "api",
+    "auto-crud",
+    "mongodb"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "peerDependencies": {
+    "express": "^5.0.0",
+    "mongoose": "^8.0.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.7.5",
+    "tsx": "^4.19.1",
+    "typescript": "^5.6.3",
+    "express": "^5.0.1",
+    "mongoose": "^8.7.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/express-auto-crud.git"
+  }
+}
