@@ -1,4 +1,4 @@
-# 🚀 Express Auto CRUD
+# 🚀 Express Quick Crud
 
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.6-blue.svg)](https://www.typescriptlang.org/)
 
