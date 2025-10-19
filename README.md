@@ -509,7 +509,7 @@ Built with ❤️ using:
 ## 📬 Support
 
 - 📧 Email: kamalpreet6198@gmail.com
-- 🐛 Issues: [GitHub Issues](https://github.com/yourusername/express-auto-crud/issues)
+- 🐛 Issues: [GitHub Issues](https://github.com/kpsbathla16624/express-auto-crud/issues)
 
 ---
 
